@@ -6,4 +6,5 @@ To add new questions, duplicate the `00 template` folder and edit the markdown f
 
 ### Questions
 
-1.   🟩 [Infinite city streets](01 infinite city streets/01 infinite city streets.md)
+1.   🟩 [Infinite city streets](01%20infinite%20city%20streets/01%20infinite%20city%20streets.md)
+
