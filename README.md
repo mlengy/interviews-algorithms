@@ -5,3 +5,5 @@ This repository holds reference questions to be used for algorithms and data str
 To add new questions, duplicate the `00 template` folder and edit the markdown file within. Add other supporting files and solution projects as necessary.
 
 ### Questions
+
+1.   🟩 [Infinite city streets](01 infinite city streets/01 infinite city streets.md)
