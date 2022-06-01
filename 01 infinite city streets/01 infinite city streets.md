@@ -6,12 +6,17 @@
 
 ## Contents
 
--   🟩 [Base](#base)
--   🟩 [Bonus 1: Arbitrary start and end within city](#bonus-1)
--   🟩 [Bonus 2: City with wrapping streets](#bonus-2)
--   🟩 [Bonus 3: N-dimensional city](#bonus-3)
--   🟩 [Bonus 4: Wandering routes](#bonus-4)
--   🟩 [Bonus 5: Time to destination](#bonus-5)
+🟩 [Base](#base)
+
+🟩 [Bonus 1: Arbitrary start and end within city](#bonus-1)
+
+🟩 [Bonus 2: City with wrapping streets](#bonus-2)
+
+🟩 [Bonus 3: N-dimensional city](#bonus-3)
+
+🟩 [Bonus 4: Wandering routes](#bonus-4)
+
+🟩 [Bonus 5: Time to destination](#bonus-5)
 
 ## Base
 

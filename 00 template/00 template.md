@@ -8,8 +8,9 @@ If paused or deprecated, provide reason here.
 
 ## Contents
 
--   [Base](#base)
--   [Bonus 1: Description](#bonus-1)
+🟩🟨🟥 [Base](#base)
+
+🟩🟨🟥 [Bonus 1: Description](#bonus-1)
 
 ## Base
 
