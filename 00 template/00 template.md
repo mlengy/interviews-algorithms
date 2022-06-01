@@ -6,7 +6,14 @@
 
 If paused or deprecated, provide reason here.
 
+## Contents
+
+-   [Base](#base)
+-   [Bonus 1: Description](#bonus-1)
+
 ## Base
+
+[(top)](#contents)
 
 Problem description goes here.
 
@@ -73,6 +80,10 @@ Provide general reasoning behind use of question here. Also provide any other ge
 
 
 ## Bonus 1
+
+##### Bonus name
+
+[(top)](#contents)
 
 Bonus description goes here.
 
