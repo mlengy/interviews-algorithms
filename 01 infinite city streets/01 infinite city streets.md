@@ -418,7 +418,7 @@ Write a function that determines how many different paths there are from the top
 
 [(top)](#contents)
 
-Bonus description goes here.
+Assume now that we want to find the number of routes between any two arbitrary intersections, $(x_1, y_1)$ To $(x_2, y_2)$, within the city. You cannot modify the code you have already written and should write a new function that utilizes your previous function to compute the result to this modified problem.
 
 ### Test cases
 
@@ -440,20 +440,29 @@ Expected
 
 Python
 
-```
+```python
+from typing import List, Tuple
 
+def num_routes_any(x1: int, y1: int, x2: int, y2: int, blocked: List[Tuple[int, int]]) -> int:
+    return 0
 ```
 
 Kotlin
 
-```
-
+```kotlin
+fun numRoutesAny(x1: Int, y1: Int, x2: Int, y2: Int, blocked: List<Pair<Int, Int>>): Int {
+    return 0
+}
 ```
 
 Java
 
-```
+```java
+import java.util.List;
 
+public static int numRoutesAny(int x1, int y1, int x2, int y2, List<int[]> blocked) {
+    return 0;
+}
 ```
 
 ### Expected
@@ -488,7 +497,7 @@ Provide general reasoning behind use of question here. Also provide any other ge
 
 [(top)](#contents)
 
-Bonus description goes here.
+Imagine now that the streets of this city are not infinite, but instead wrap around and connect back on themselves. In this new city, continuing to the right from the rightmost intersection will lead you to the leftmost intersection on that same road. How would you modify your solution to account for this type of city?
 
 ### Test cases
 
@@ -497,7 +506,13 @@ Bonus description goes here.
 Input
 
 ```
+OOXX
+XOOX
+OXOO
+OXXX
+OOOO
 
+()
 ```
 
 Expected
@@ -510,20 +525,29 @@ Expected
 
 Python
 
-```
+```python
+from typing import List, Tuple
 
+def num_routes_wrap(n: int, m: int, blocked: List[Tuple[int, int]]) -> int:
+    return 0
 ```
 
 Kotlin
 
-```
-
+```kotlin
+fun numRoutesWrap(n: Int, m: Int, blocked: List<Pair<Int, Int>>): Int {
+    return 0
+}
 ```
 
 Java
 
-```
+```java
+import java.util.List;
 
+public static int numRoutesWrap(int n, int m, List<int[]> blocked) {
+    return 0;
+}
 ```
 
 ### Expected
@@ -558,7 +582,9 @@ Provide general reasoning behind use of question here. Also provide any other ge
 
 [(top)](#contents)
 
-Bonus description goes here.
+Imagine now that the city is built with aliens technology. In this alien city, the streets exist in any number of dimensions. We want to try and determine the number of routes in this N-dimensional city.
+
+Assume you are given a list of length $d$ of dimension sizes and a list of intersection coordinates that are blocked off. Also assume that you can only move in the positive coordinate direction and that you want to travel from $(0, 0, \cdots)$ to the largest possible coordinate intersection.
 
 ### Test cases
 
@@ -580,20 +606,29 @@ Expected
 
 Python
 
-```
+```python
+from typing import List, Tuple
 
+def num_routes_wrap(dimension_sizes: List[int], blocked: List[Tuple[int, ...]]) -> int:
+    return 0
 ```
 
 Kotlin
 
-```
-
+```kotlin
+fun numRoutesWrap(dimensionSizes: List<Int>, blocked: List<Array<Int>>): Int {
+    return 0
+}
 ```
 
 Java
 
-```
+```java
+import java.util.List;
 
+public static int numRoutesWrap(List<Integer> dimensionSizes, List<int[]> blocked) {
+    return 0;
+}
 ```
 
 ### Expected
@@ -628,7 +663,7 @@ Provide general reasoning behind use of question here. Also provide any other ge
 
 [(top)](#contents)
 
-Bonus description goes here.
+Assume now that we wish to move from any arbitrary start point to any other target point. In this situation we are able to move in any direction, but cannot visit the same intersection twice. Assume you are given the two points $(x_1, y_1)$ and $(x_2, y_2)$ and a list of blocked intersections. We want to find the number of possible routes from our start to the target.
 
 ### Test cases
 
@@ -650,20 +685,29 @@ Expected
 
 Python
 
-```
+```python
+from typing import List, Tuple
 
+def num_routes_any(x1: int, y1: int, x2: int, y2: int, blocked: List[Tuple[int, int]]) -> int:
+    return 0
 ```
 
 Kotlin
 
-```
-
+```kotlin
+fun numRoutesAny(x1: Int, y1: Int, x2: Int, y2: Int, blocked: List<Pair<Int, Int>>): Int {
+    return 0
+}
 ```
 
 Java
 
-```
+```java
+import java.util.List;
 
+public static int numRoutesAny(int x1, int y1, int x2, int y2, List<int[]> blocked) {
+    return 0;
+}
 ```
 
 ### Expected
@@ -698,7 +742,9 @@ Provide general reasoning behind use of question here. Also provide any other ge
 
 [(top)](#contents)
 
-Bonus description goes here.
+Imagine now that we live at the origin in our N-dimensional grid city. We have some target that we wish to travel to. Some intersections are still blocked off and we can only move in the positive coordinate direction. We want to know the minimum number of time it would take to arrive at the target.
+
+Assume you are given a list of length $d$ of dimension sizes and a list of intersection coordinates that are blocked off.
 
 ### Test cases
 
@@ -720,20 +766,29 @@ Expected
 
 Python
 
-```
+```python
+from typing import List, Tuple
 
+def num_routes_wrap(dimension_sizes: List[int], blocked: List[Tuple[int, ...]]) -> int:
+    return 0
 ```
 
 Kotlin
 
-```
-
+```kotlin
+fun numRoutesWrap(dimensionSizes: List<Int>, blocked: List<Array<Int>>): Int {
+    return 0
+}
 ```
 
 Java
 
-```
+```java
+import java.util.List;
 
+public static int numRoutesWrap(List<Integer> dimensionSizes, List<int[]> blocked) {
+    return 0;
+}
 ```
 
 ### Expected
